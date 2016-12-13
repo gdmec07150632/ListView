@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void arrayAdapter() {
-        final String[] weeks = {"星期天", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
+        final String[] weeks = {"星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"};
         ArrayAdapter adapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, weeks);
         lv.setAdapter(adapter);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
